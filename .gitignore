@@ -1,0 +1,97 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Environment Variables
+# =========================
+
+.env
+.env.*
+!.env.example
+
+# =========================
+# Jupyter Notebook
+# =========================
+
+.ipynb_checkpoints/
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+
+# =========================
+# PyCharm
+# =========================
+
+.idea/
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs
+# =========================
+
+*.log
+
+# =========================
+# Audio / Video Files
+# =========================
+
+*.mp3
+*.wav
+*.m4a
+*.mp4
+*.webm
+*.aac
+*.flac
+
+# Generated audio/video folders
+audio/
+videos/
+downloads/
+output/
+
+# =========================
+# Model / ML Cache
+# =========================
+
+.cache/
+cache/
+models/
+checkpoints/
+
+# Hugging Face cache
+huggingface/
+
+# =========================
+# Vector Database
+# =========================
+
+vector_db/
+vector-db/
+vectordb/
+chroma_db/
+faiss_index/
